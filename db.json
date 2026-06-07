@@ -1,0 +1,123 @@
+{
+  "libros": [
+    {
+      "titulo": "Cien años de soledad",
+      "autor_id": 1,
+      "categoria_id": 1,
+      "isbn": "978-0307474728",
+      "anio": 1967,
+      "stock": 6,
+      "disponible": true,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "titulo": "El amor en los tiempos del cólera",
+      "autor_id": 1,
+      "categoria_id": 2,
+      "isbn": "978-0307389732",
+      "anio": 1985,
+      "stock": 3,
+      "disponible": true
+    },
+    {
+      "id": 3,
+      "titulo": "Don Quijote de la Mancha",
+      "autor_id": 2,
+      "categoria_id": 1,
+      "isbn": "978-8420412146",
+      "anio": 1605,
+      "stock": 7,
+      "disponible": true
+    },
+    {
+      "id": 4,
+      "titulo": "1984",
+      "autor_id": 3,
+      "categoria_id": 3,
+      "isbn": "978-0451524935",
+      "anio": 1949,
+      "stock": 0,
+      "disponible": false
+    },
+    {
+      "id": 5,
+      "titulo": "Rebelión en la granja",
+      "autor_id": 3,
+      "categoria_id": 3,
+      "isbn": "978-0451526342",
+      "anio": 1945,
+      "stock": 4,
+      "disponible": true
+    },
+    {
+      "id": 6,
+      "titulo": "Crónica de una muerte anunciada",
+      "autor_id": 1,
+      "categoria_id": 1,
+      "isbn": "978-1400034956",
+      "anio": 1981,
+      "stock": 2,
+      "disponible": true
+    }
+  ],
+  "autores": [
+    {
+      "id": 1,
+      "nombre": "Gabriel García Márquez",
+      "nacionalidad": "Colombiana",
+      "fecha_nacimiento": "1927-03-06"
+    },
+    {
+      "id": 2,
+      "nombre": "Miguel de Cervantes",
+      "nacionalidad": "Española",
+      "fecha_nacimiento": "1547-09-29"
+    },
+    {
+      "id": 3,
+      "nombre": "George Orwell",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1903-06-25"
+    },
+    {
+      "id": 4,
+      "nombre": "Jorge Luis Borges",
+      "nacionalidad": "Argentina",
+      "fecha_nacimiento": "1899-08-24"
+    },
+    {
+      "id": 5,
+      "nombre": "Isabel Allende",
+      "nacionalidad": "Chilena",
+      "fecha_nacimiento": "1942-08-02"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Realismo Mágico",
+      "descripcion": "Género literario que combina elementos fantásticos con la realidad cotidiana"
+    },
+    {
+      "id": 2,
+      "nombre": "Romance",
+      "descripcion": "Novelas centradas en historias de amor y relaciones humanas"
+    },
+    {
+      "id": 3,
+      "nombre": "Distopía",
+      "descripcion": "Ficción que retrata sociedades futuras opresivas o problemáticas"
+    },
+    {
+      "id": 4,
+      "nombre": "Ciencia Ficción",
+      "descripcion": "Narrativa basada en avances científicos y tecnológicos imaginarios"
+    },
+    {
+      "id": 5,
+      "nombre": "Misterio",
+      "descripcion": "Historias con enigmas, crímenes o sucesos por resolver"
+    }
+  ]
+}
